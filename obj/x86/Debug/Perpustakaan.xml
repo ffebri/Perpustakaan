@@ -1,0 +1,156 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Perpustakaan
+</name>
+</assembly>
+<members>
+<member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_BukuDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_KategoriDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_PeminjamDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_PeminjamanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_PengembalianDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_RakDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_BukuRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_KategoriRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_PeminjamRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_PeminjamanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_PengembalianRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_RakRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_BukuRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_KategoriRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_PeminjamRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_PeminjamanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_PengembalianRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet.Table_RakRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSetTableAdapters.Table_BukuTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSetTableAdapters.Table_KategoriTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSetTableAdapters.Table_PeminjamTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSetTableAdapters.Table_PeminjamanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSetTableAdapters.Table_PengembalianTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSetTableAdapters.Table_RakTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Perpustakaan.DBPerpustakaanDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Perpustakaan.DBPerpustakaanDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Perpustakaan.DBPerpustakaanDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Perpustakaan.DBPerpustakaanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Perpustakaan.DBPerpustakaanDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Perpustakaan.DBPerpustakaanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Perpustakaan.DBPerpustakaanDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Perpustakaan.DBPerpustakaanDataSetTableAdapters.TableAdapterManager.UpdateAll(Perpustakaan.DBPerpustakaanDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Perpustakaan.DBPerpustakaanDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Perpustakaan.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Perpustakaan.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Perpustakaan.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
